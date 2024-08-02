@@ -4,6 +4,16 @@ function backspace(){
     res1.value = res1.value.slice(0,-1);
 }
 
+let cal = document.getElementById("math2");
+cal.onkeyup = function(e){
+    if(e.keyCode === 13){
+        console.log("Enter");
+        let n = res1.value;
+        console.log(n);
+        calculate();
+    }
+}
+
 function calculate(){
     let expression = res1.value;
     let result;
