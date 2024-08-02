@@ -1,0 +1,70 @@
+body{
+    background-color: #28231c;
+}
+
+h1{
+    color: #c1eeff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+table{
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+input[type = "button"]{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #655356;
+    color: #c1eeff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 10px solid #513b3c;
+    transition: width 2s, height 2s;
+}
+
+input[type = "text"]{
+    padding: 20px 30px;
+    color: #c1eeff ;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 10px solid #513b3c;
+    background-color: #655356;
+    text-decoration: none;
+}
+
+.science{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: #655356;
+    border-radius: 30px;
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #c1eeff;
+    border: 10px solid #513b3c;
+    border-radius: 20px;
+    transition: width 2s, height 2s;
+}
+
+a{
+    text-decoration:none;
+}
+
+input[type = "button"]:hover{
+    background-color: #28231c;
+}
+
+.science:hover{
+    background-color: #28231c;
+}
+
+input[type = "text"]:hover{
+    background-color: #28231c;
+}
